@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?olszewski.4suns\.pl/index.php [NC]
+RewriteRule (.*) http://olszewski.4suns.pl/$1 [R=301,L]
